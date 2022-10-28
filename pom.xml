@@ -47,7 +47,7 @@
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
+			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
@@ -93,12 +93,12 @@
 		
 		<!-- provided dependencies -->
 
-		<dependency>
+		<!--<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
     			<groupId>org.sonarsource.scanner.maven</groupId>
    			<artifactId>sonar-maven-plugin</artifactId>
