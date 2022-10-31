@@ -1,50 +1,64 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.net.*" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Login with us</title>
 </head>
-</head>
+
 <body>
-<h1 align="center">Welcome to Mithun Software Solutions.</h1>
-<h1 align="center"> Mithun Software Solutions- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
-<hr>
-<br>
-	<h1><h3> Server Side IP Address </h3><br>
+    <div class=" flex-r container">
+        <div class="flex-r login-wrapper">
+            <div class="login-text">
+                <div class="logo">
+                    <span><i class="fab fa-speakap"></i></span>
+                    <span>Coders</span>
+                </div>
+                <h1>Sign Up</h1>
+                <p>It's not long before you embark on this journey! </p>
 
-<% 
-String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
-%>
-<br>
-<%out.println("Server IP Address :: "+ip);%>
-</h1>
-<hr>
-<div style="text-align: center;">
-	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
-	</span>
-	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226
-		devopstrainingblr@gmail.com
-		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
-	</span>
-</div>
-<hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
-<hr>
-<hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+                <form class="flex-c">
+                    <div class="input-box">
+                        <span class="label">E-mail</span>
+                        <div class=" flex-r input">
+                            <input type="text" placeholder="name@abc.com">
+                            <i class="fas fa-at"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="label">Password</span>
+                        <div class="flex-r input">
+                            <input type="password" placeholder="8+ (a, A, 1, #)">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
 
+                    <div class="check">
+                        <input type="checkbox" name="" id="">
+                        <span>I've read and agree with T&C</span>
+                    </div>
+
+                    <input class="btn" type="submit" value="Create an Account">
+                    <span class="extra-line">
+                        <span>Already have an account?</span>
+                        <a href="#">Sign In</a>
+                    </span>
+                </form>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
