@@ -1,64 +1,46 @@
-<Html>  
-<head>   
-<title>  
-Registration Page  
-</title>  
-</head>  
-<body bgcolor="Lightskyblue">  
-<br>  
-<br>  
-<form>  
-  
-<label> Firstname </label>         
-<input type="text" name="firstname" size="15"/> <br> <br>  
-<label> Middlename: </label>     
-<input type="text" name="middlename" size="15"/> <br> <br>  
-<label> Lastname: </label>         
-<input type="text" name="lastname" size="15"/> <br> <br>  
-  
-<label>   
-Course :  
-</label>   
-<select>  
-<option value="Course">Course</option>  
-<option value="BCA">BCA</option>  
-<option value="BBA">BBA</option>  
-<option value="B.Tech">B.Tech</option>  
-<option value="MBA">MBA</option>  
-<option value="MCA">MCA</option>  
-<option value="M.Tech">M.Tech</option>  
-</select>  
-  
-<br>  
-<br>  
-<label>   
-Gender :  
-</label><br>  
-<input type="radio" name="male"/> Male <br>  
-<input type="radio" name="female"/> Female <br>  
-<input type="radio" name="other"/> Other  
-<br>  
-<br>  
-  
-<label>   
-Phone :  
-</label>  
-<input type="text" name="country code"  value="+91" size="2"/>   
-<input type="text" name="phone" size="10"/> <br> <br>  
-Address  
-<br>  
-<textarea cols="80" rows="5" value="address">  
-</textarea>  
-<br> <br>  
-Email:  
-<input type="email" id="email" name="email"/> <br>    
-<br> <br>  
-Password:  
-<input type="Password" id="pass" name="pass"> <br>   
-<br> <br>  
-Re-type password:  
-<input type="Password" id="repass" name="repass"> <br> <br>  
-<input type="button" value="Submit"/>  
-</form>  
-</body>  
-</html>  
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.net.*" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MithunTechnologies- Home Page</title>
+<link href="images/mithunlogo.jpg" rel="icon">
+</head>
+</head>
+<body>
+<h1 align="center">Welcome to Anantapur</h1>
+<h1 align="center"> Anantapur </h1>
+<hr>
+<br>
+	<h1><h3> Server Side IP Address </h3><br>
+
+<% 
+String ip = "";
+InetAddress inetAddress = InetAddress.getLocalHost();
+ip = inetAddress.getHostAddress();
+out.println("Server Host Name :: "+inetAddress.getHostName()); 
+%>
+<br>
+<%out.println("Server IP Address :: "+ip);%>
+</h1>
+<hr>
+<div style="text-align: center;">
+	<span>
+		<img src="images/mithunlogo.jpg" alt="" width="100">
+	</span>
+	<span style="font-weight: bold;">
+		ANANTAPUR
+		<br>
+		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+	</span>
+</div>
+<hr>
+	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
+<hr>
+<hr>
+<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+
+</body>
+</html>
