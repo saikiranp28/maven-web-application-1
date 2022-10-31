@@ -50,7 +50,7 @@ hr {
 <body>  
 <form>  
   <div class="container">  
-  <title>  <h1> Student Registeration Form</h1> </title>  
+  <center>  <h1> Student Registeration Form</h1> </centere>  
   <hr>  
   <label> Firstname </label>   
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
