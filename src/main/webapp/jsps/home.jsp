@@ -1,6 +1,7 @@
 <!DOCTYPE html>  
 <html>  
-<head>  
+<head> 
+  <title>Student Registeration Form</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <style>  
 body{  
@@ -49,7 +50,7 @@ hr {
 <body>  
 <form>  
   <div class="container">  
-  <center>  <h1> Student Registeration Form</h1> </center>  
+  <title>  <h1> Student Registeration Form</h1> </title>  
   <hr>  
   <label> Firstname </label>   
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
@@ -89,13 +90,13 @@ Phone :
 Current Address :  
 <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
 </textarea>  
- <label for="email"><b>Email</b></label>  
+ <label for="email"><strong>Email</strong></label>  
  <input type="text" placeholder="Enter Email" name="email" required>  
   
-    <label for="psw"><b>Password</b></label>  
+    <label for="psw"><strong>Password</strong></label>  
     <input type="password" placeholder="Enter Password" name="psw" required>  
   
-    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <label for="psw-repeat"><strong>Re-type Password</strong></label>  
     <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
     <button type="submit" class="registerbtn">Register</button>    
 </form>  
