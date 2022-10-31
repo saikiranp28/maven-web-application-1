@@ -1,5 +1,5 @@
 <!DOCTYPE html>  
-<!--<html>  
+<html>  
 <head>  
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <style>  
@@ -100,8 +100,5 @@ Current Address :
     <button type="submit" class="registerbtn">Register</button>    
 </form>  
 </body>  
-</html>-->
+</html>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
