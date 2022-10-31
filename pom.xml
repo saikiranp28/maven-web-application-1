@@ -117,13 +117,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>sai kiran Releases Nexus Repository</name>
-	      <url>http://34.208.176.187:8081/repository/flipkart-release/</url>
+	      <url>http://34.208.176.187:8081/repository/firstproject/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>saikiran Snapshot Nexus Repository </name>
-	      <url>http://34.208.176.187:8081/repository/flipkart-snapshot/</url>
+	      <url>http://34.208.176.187:8081/repository/firstproject-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
