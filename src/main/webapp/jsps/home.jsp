@@ -1,73 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <script async src="MgJs.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="iconap.webp" type="image/icon">
-    <title>MgCalculator</title>
-
-</head>
-
-<body>
-    <center>
-
-        <h1>Mg Calculator</h1>
-        <hr color="#E5C480" width=90%>
-
-
-        <h3>Magnesium Calculator</h3>
-        <p>Enter your values below and press <i>Calculate</i> button:</p>
-
-        <form name="calcform">
-
-
-            <table class="calc">
-                <tr>
-                    <td><label for="a" class="intextlabel">Enter ml of EDTA used in CaCo3</label></td>
-                    <td><input type="number" step="any" id="Amount1" name="a" class="intext" autofocus></td>
-                </tr>
-                <tr>
-                    <td><label for="a" class="intextlabel">Enter ml of EDTA used in Ca</label></td>
-                    <td><input type="number" step="any" id="Amount2" name="b" class="intext"></td>
-                </tr>
-                <tr>
-                    <td><label for="a" class="intextlabel">Enter amount of sample in ml</label></td>
-                    <td><input type="number" step="any" id="Amount3" name="c" class="intext"></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td><label for="a" class="intextlabel"><b>Magnesium(mg/l)</b></label></td>
-                    <td><label for="a" class="intextlabel" id="output"></label></td>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td colspan="2">
-                        <button type="button" title="Calculate" class="btn" onclick="calculateMg()"> Calculate</button>
-                        <button type="reset" title="Reset" class="btn"> Reset</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
-
-        <footer>
-            <a href="https://github.com/Abhijeetbyte/MgCalculator" target="_blank"><button type="button" title="About"
-                    class="abt">About</button></a>
-            <a href="mailto:abhijeetkr.sci@gmail.com"><button type="button" title="Feedback" class="fdback">
-                    Feedback</button></a>
-            <div class="footer-bottom">
-                <p>copyright &copy;2021 MgCalculator. designed by <span>Abhijeet kumar</span></p>
-            </div>
-        </footer>
-    </center>
-</body>
-
-</html>
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
